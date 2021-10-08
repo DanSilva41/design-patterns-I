@@ -1,0 +1,18 @@
+Book:
+    Design Patterns - Elements of Reusable Object-Oriented Software - 1994
+    Erich Gamma, Richard Helm, Ralph Johnson, John Vissides (Ganf of Four)
+
+23 padrões de projeto
+3 categorias:
+
+    * Criacionais: Cujo foco é na criação, construção de objetos
+    * Estruturais: Focados em composição e estruturais entre objetos
+    * COMPORTAMENTAIS: Focados nos métodos, estado e interação entr objetos
+
+        - Strategy
+        - Chain of Responsability
+        - Template Method
+        - State
+        - Command
+        - Observer
+
