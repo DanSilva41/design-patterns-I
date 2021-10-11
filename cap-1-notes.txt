@@ -16,6 +16,13 @@ Book:
             Para saber mais: https://refactoring.guru/design-patterns/strategy
                              https://refactoring.guru/design-patterns/strategy/java/example
         - Chain of Responsability
+            "Depende da transformação de comportamentos específicos em objetos autônomos chamados de manipuladores.
+            O padrão sugere que você conecte esses manipuladores em uma cadeia. Cada manipulador vinculado tem um campo
+            para armazenar uma referência ao próximo manipulador na cadeia. Além de processar uma solicitação,
+            os manipuladores passam a solicitação mais adiante na cadeia. A solicitação viaja ao longo da cadeia até que
+            todos os manipuladores tenham a chance de processá-la."
+
+            Para saber mais: https://refactoring.guru/design-patterns/chain-of-responsibility
         - Template Method
         - State
         - Command
