@@ -10,11 +10,11 @@ Book:
     * COMPORTAMENTAIS: Focados nos métodos, estado e interação entr objetos
 
         - Strategy
-            "Sempre que tenho um algoritmo e ele varia de acordo com um parâmetro/tipo de informação,
-            e usando OO é possível centralizar a lógica em uma classe inalterável e
-            a forma de retorno de cada informação fica atrelado a cada implementação."
+            "Sugere que você pegue uma classe que faz algo específico de várias maneiras diferentes e
+            extraia todos esses algoritmos em classes separadas chamadas de estratégias ."
 
             Para saber mais: https://refactoring.guru/design-patterns/strategy
+                             https://refactoring.guru/design-patterns/strategy/java/example
         - Chain of Responsability
         - Template Method
         - State
