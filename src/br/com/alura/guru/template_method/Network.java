@@ -15,6 +15,7 @@ public abstract class Network {
      * Publish the data to whatever network.
      */
     public boolean post(String message) {
+        getSocialNetworkName();
         // Authenticate before posting. Every network uses a different
         // authentication method.
         if (logIn(this.username, this.password)) {
@@ -25,6 +26,8 @@ public abstract class Network {
         }
         return false;
     }
+
+    abstract String getSocialNetworkName();
 
     abstract boolean logIn(String username, String password);
 

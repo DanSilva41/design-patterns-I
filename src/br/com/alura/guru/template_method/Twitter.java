@@ -11,7 +11,13 @@ public class Twitter extends Network {
     }
 
     @Override
+    String getSocialNetworkName() {
+        return "== TWITTER ==";
+    }
+
+    @Override
     boolean logIn(String username, String password) {
+        System.out.println("\n == TWITTER ==");
         System.out.println("\nChecking user's parameters");
         System.out.println("Name: " + this.username);
         System.out.print("Password: ");

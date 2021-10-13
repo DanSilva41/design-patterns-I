@@ -11,7 +11,13 @@ public class Facebook extends Network {
     }
 
     @Override
+    String getSocialNetworkName() {
+        return "== FACEBOOK ==";
+    }
+
+    @Override
     boolean logIn(String username, String password) {
+        System.out.println("\n == FACEBOOK ==");
         System.out.println("\nChecking user's parameters");
         System.out.println("Name: " + this.username);
         System.out.print("Password: ");
