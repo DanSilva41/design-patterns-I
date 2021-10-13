@@ -23,7 +23,20 @@ Book:
             todos os manipuladores tenham a chance de processá-la."
 
             Para saber mais: https://refactoring.guru/design-patterns/chain-of-responsibility
+                             https://refactoring.guru/design-patterns/chain-of-responsibility/java/example
         - Template Method
+            "Favorece o reaproveitamento de códigos comuns entre classes, evitando assim duplicações de códigos."
+            "Define o esqueleto de um algoritmo na superclasse, mas permite que as subclasses substituam etapas específicas
+            do algoritmo sem alterar sua estrutura."
+
+            "Sugere que você divida um algoritmo em uma série de etapas, transforme essas etapas em métodos e coloque
+            uma série de chamadas para esses métodos dentro de um único método de modelo. As etapas podem ser abstract ou
+            ter alguma implementação padrão. Para usar o algoritmo, o cliente deve fornecer sua própria subclasse,
+            implementar todas as etapas abstratas e substituir algumas das opcionais, se necessário (mas não o método do modelo em si)."
+
+            Para saber mais: https://refactoring.guru/design-patterns/template-method
+                             https://refactoring.guru/design-patterns/template-method/java/example
+
         - State
         - Command
         - Observer
