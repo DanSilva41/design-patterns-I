@@ -38,6 +38,21 @@ Book:
                              https://refactoring.guru/design-patterns/template-method/java/example
 
         - State
+            "A ideia principal é que, a qualquer momento, há um número finito de estados em que um programa pode estar.
+            Em qualquer estado único, o programa se comporta de maneira diferente e pode ser comutado de um estado para outro instantaneamente.
+            No entanto, dependendo do estado atual, o programa pode ou não mudar para outros estados.
+            Essas regras de comutação, chamadas de transições , também são finitas e predeterminadas."
+
+            "Este padrão, assim como o padrão Strategy, resolve o problema de muitos ifs no código."
+            "Essa estrutura pode ser semelhante ao padrão Strategy , mas há uma diferença fundamental.
+            No padrão State, os estados particulares podem estar cientes uns dos outros e iniciar transições de um estado para outro,
+            ao passo que as estratégias quase nunca se conhecem."
+            "Permite que um objeto altere seu comportamento quando seu estado interno muda."
+
+            "Sugere que você crie novas classes para todos os estados possíveis de um objeto e extraia todos os comportamentos específicos de estado para essas classes."
+
+            Para saber mais: https://refactoring.guru/design-patterns/state
+                             https://refactoring.guru/design-patterns/state/java/example
         - Command
         - Observer
 
