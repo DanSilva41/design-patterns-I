@@ -73,4 +73,10 @@ Book:
                               https://refactoring.guru/design-patterns/command/java/example
 
         - Observer
+            "Permite definir um mecanismo de assinatura para notificar vários objetos sobre quaisquer eventos que ocorram com o objeto que eles estão observando"
+            "Use quando as mudanças no estado de um objeto exigirem a mudança de outros objetos e o conjunto real de objetos for desconhecido de antemão ou mudar dinamicamente."
+            "Use quando alguns objetos em seu aplicativo devem observar outros, mas apenas por um tempo limitado ou em casos específicos."
+
+            Para saber mais: https://refactoring.guru/design-patterns/observer
+                             https://refactoring.guru/design-patterns/observer/java/example
 
