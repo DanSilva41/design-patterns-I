@@ -1,8 +1,11 @@
 package br.com.alura.loja.pedido.acao;
 
-public class SalvarPedidoNoBanco {
+import br.com.alura.loja.pedido.Pedido;
 
-    public void executar() {
+public class SalvarPedidoNoBanco implements AcaoAposGerarPedido {
+
+    @Override
+    public void executar(Pedido pedido) {
         System.out.print("Salvando pedido no banco de dados!");
     }
 }
