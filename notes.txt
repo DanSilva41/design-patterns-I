@@ -66,6 +66,9 @@ Book:
              "Use quando quiser enfileirar operações, agendar sua execução ou executá-las remotamente."
              "Use quando quiser implementar operações reversíveis."
 
+             "Um Command Handler tem como responsabilidade, normalmente, apenas orquestrar as tarefas a serem executadas,
+             ou seja, chamar as classes necessárias que realizam as tarefas desejadas"
+
              Para saber mais: https://refactoring.guru/design-patterns/command
                               https://refactoring.guru/design-patterns/command/java/example
 
